@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*     {padding: 0; margin: 0; text-align: center; user-select: none;}
+body    {background-color: #222; }
+#primary  {background-color: #000; height: 100vh; width: 80vw; color: #000; font-size: 0vw; margin: auto; overflow-y:auto;}
+.row        {background-color: #000; height: 30vw; width: 78vw; color: #000; font-size: 0vw; margin: 1vw;}
+.left         {background-color: #555; height: 30vw; width: 48vw; color: #000; font-size: 0vw; float: left;}
+.right        {background-color: #000; height: 30vw; width: 30vw; color: #000; font-size: 0vw; float: right;}
+.r-top          {background-color: #888; height: 05vw; width: 30vw; color: #000; font-size: 0vw;}
+.r-bottom       {background-color: #444; height: 25vw; width: 30vw; color: #000; font-size: 0vw; overflow-y:auto;}
+.row2             {background-color: #666; height: 10vw; width: 28vw; color: #000; font-size: 0vw; margin: 1vw;}
+.l-top          {background-color: #555; height: 05vw; width: 46vw; color: #000; font-size: 0vw; margin: 1vw;}
+.l-bottom       {background-color: #777; height: 22vw; width: 46vw; color: #000; font-size: 0vw; margin: 1vw;}
+.l-t-left         {background-color: #777; height: 05vw; width: 40vw; color: #000; font-size: 3vw; float: left; line-height: 4.5vw;}
+.l-t-right        {background-color: #777; height: 05vw; width: 05vw; color: #000; font-size: 3vw; float: right; line-height: 4.5vw;}
+.l-b-left         {background-color: #000; height: 20vw; width: 13.5vw; color: #fff; font-size: 1vw; margin-top:1vw; margin-left: 1vw; float: left; overflow-y:hidden;}
+.l-b-right        {background-color: #999; height: 20vw; width: 29.5vw; color: #000; font-size: 1vw; margin-top:1vw; margin-right: 1vw; float: right;}
+img                 {height: auto; width: 100%;}
+p                   {font-size: 2vw;}
+span                {font-size: 1vw;}
+.rform input        {height: 1vw; width: 8vw; font-size: .7vw;}
+.rform textarea     {height: 3vw; width: 19vw; font-size: .7vw;}
+.rform select       {height: 1vw; width: 8vw; font-size: .7vw;}
+.rform button       {height: 1vw; width: 8vw; font-size: .7vw;}
+.fleft              {float: left; margin-left: 1vw;}
+.fright             {float: right; margin-right: 1vw;}
+.rhead              {background-color: #aaa; height: 1.5vw; width: 28vw; color: #000; font-size: 1vw; margin-top:1vw;}
+.rleft              {background-color: #aaa; height: 6.5vw; width: 20vw; color: #000; font-size: 1vw; margin-left:1vw; margin-top:1vw; float: left;}
+.rright             {background-color: #aaa; height: 5vw; width: 5vw; color: #000; font-size: 1vw; margin-right:1vw; margin-top:1vw; float: right;}
