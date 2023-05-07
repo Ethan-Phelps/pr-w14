@@ -10,9 +10,8 @@ export default class ReviewList extends React.Component {
         }
     }
     handleCallback = (childData) =>{
-        let data=JSON.stringify(childData).toString();
-        alert(data);
-        //this.setState({name: childData})
+        let data=JSON.parse(JSON.stringify(childData));
+        this.setState({FName:data["fname"],FReve:data["freve"],FRate:data["frate"]})//doesn't work
     }
     render(){
         let reviews=[];
